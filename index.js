@@ -18,7 +18,7 @@ const util = require('util');
 const path = require('path');
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson } = require('./lib/functions');
 const { sms, downloadMediaMessage } = require('./lib/msg');
-const { cmd } = require('./command');
+const { cmd } = require('./lib/command');
 
 const prefix = '.';
 const ownerNumber = ['94766315540']; // ඔයාගේ no එක දාන්න 🙄
